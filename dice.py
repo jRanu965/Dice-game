@@ -30,7 +30,7 @@ def play_game():
         input("press enter to roll the dice")
         player_roll = roll_dice()
         computer_roll = roll_dice()
-
+        
         print(f"player rolled: {player_roll}")
         print(f"computer rolled: {computer_roll}")  
 
@@ -57,5 +57,5 @@ while True:
     again = input("Do you want to play again? (yes/no): ").lower()
     if again != "yes":
         print("Thanks for playing!")
-        break
+        break 
 	
